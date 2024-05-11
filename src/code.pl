@@ -174,6 +174,7 @@ my_append([H|T], L2, [H|L3]) :- my_append(T, L2, L3).
 
 
 
+% ESTE MÉTODO NO ESTÁ BIEN
 % v_lines/2
     % Params: Superficie (lista), LineasVerticales (lista)
     % Description: True si LineasVerticales es la lista de las líneas verticales de células de la superficie S
